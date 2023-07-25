@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+header {
+    margin: 10px 250px 0 250px;
+}
+
+.about h3 {
+    margin-top: 120px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about__container {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__description {
+    max-width: 466px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.Shop h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 131px;
+    margin-bottom: 131px;
+}
+
+.shop__list-item {
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop__list-item h5 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.shop__list-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+    margin-bottom: 46px;
+}
+
+.shop__list-item button {
+    border: 1px solid #000000;
+    padding: 12px 7px 16px 11px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.shop__list {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1190px;
+    justify-content: space-between;
+}
+/*______________________________________________________ */
+
+.square {
+
+}
+
+.square1, .square2 {
+    width: 395px;
+    height: 498px;
+    background: #D9D9D9;
+}
+
+.square2 {
+    margin-top: 35px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.text {
+
+}
+
+.text_1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    width: 501px;
+}
+
+.text_2 {
+    margin-top: 92px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    width: 501px;
+}
+
+.text_3 {
+    margin-top: 82px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    width: 501px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.strong {
+    text-align: center;
+}
+
+/*______________________________________________________ */
+
+.square__contacts {
+    width: 395px;
+    height: 498px;
+    background: #D9D9D9;
+}
+
+.one {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
